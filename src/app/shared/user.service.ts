@@ -9,17 +9,18 @@ export class UserService {
 
   constructor(private fb: FormBuilder, private http: HttpClient) { }
   readonly BaseURI = 'http://localhost:54277/api';
+
   formModel = this.fb.group({
     UserName: ['', Validators.required],
     Email: ['', Validators.email],
     FullName: [''],
     Passwords: this.fb.group({
-      Password: ['', [Validators.required, Validators.minLength(6)]],
+      Password: ['', [Validators.required, Validators.minLength(4)]],
       ConfirmPassword: ['', Validators.required]
-    }, 
-    { validator: this.comparePasswords }
-    )
+    }, { validator: this.comparePasswords })
+
   });
+
   comparePasswords(fb: FormGroup) {
     let confirmPswrdCtrl = fb.get('ConfirmPassword');
     //passwordMismatch
@@ -31,6 +32,7 @@ export class UserService {
         confirmPswrdCtrl.setErrors(null);
     }
   }
+
   register() {
     var body = {
       UserName: this.formModel.value.UserName,
@@ -44,6 +46,7 @@ export class UserService {
   login(formData) {
     return this.http.post(this.BaseURI + '/ApplicationUser/Login', formData);
   }
+
   getUserProfile() {
     return this.http.get(this.BaseURI + '/UserProfile');
   }

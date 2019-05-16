@@ -7,7 +7,7 @@ body {
 
 input.form-control,
 input.form-control:focus {
-    background-color: #636b7b;
+    background-color: #585e5c;
     color: #fff;
     border: 1px solid #636b7b;
 }

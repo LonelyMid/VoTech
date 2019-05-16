@@ -1,7 +1,8 @@
+<img src="/assets/img/cat.png" class="mx-auto d-block">
 <form [formGroup]="service.formModel" autocomplete="off" (submit)="onSubmit()">
     <div class="form-group">
         <label>Name</label>
-        <input class="form-control" formControlName="UserName" required>
+        <input class="form-control" formControlName="UserName" [(ngModel)]="formModel.UserName" required>
     </div>
     <div class="form-group">
         <label>Password</label>

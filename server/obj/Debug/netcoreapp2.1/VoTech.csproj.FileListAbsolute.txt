@@ -1,0 +1,6 @@
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.csprojAssemblyReference.cache
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.csproj.CoreCompileInputs.cache
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.RazorAssemblyInfo.cache
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.RazorAssemblyInfo.cs
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.AssemblyInfoInputs.cache
+C:\Users\1076318\Desktop\VoTech\obj\Debug\netcoreapp2.1\VoTech.AssemblyInfo.cs

@@ -1,5 +1,0 @@
-sudo
-ng new Mode1
-ng g c user/registration  --spec=false -s
-ng g s shared/user  --spec=false -s
-

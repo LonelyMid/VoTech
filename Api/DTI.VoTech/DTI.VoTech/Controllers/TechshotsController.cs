@@ -21,14 +21,13 @@ namespace DTI.VoTech.Controllers
             _context = context;
         }
 
-        // GET: api/Techshots
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Techshot>>> GetTechshots()
         {
             return await _context.Techshots.ToListAsync();
         }
 
-        // GET: api/Techshots/5
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Techshot>> GetTechshot(int id)
         {
@@ -42,7 +41,7 @@ namespace DTI.VoTech.Controllers
             return techshot;
         }
 
-        // PUT: api/Techshots/5
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTechshot(int id, Techshot techshot)
         {
@@ -72,7 +71,6 @@ namespace DTI.VoTech.Controllers
             return NoContent();
         }
 
-        // POST: api/Techshots
         [HttpPost]
         public async Task<ActionResult<Techshot>> PostTechshot(Techshot techshot)
         {
@@ -82,7 +80,7 @@ namespace DTI.VoTech.Controllers
             return CreatedAtAction("GetTechshot", new { id = techshot.TechshotId }, techshot);
         }
 
-        // DELETE: api/Techshots/5
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<Techshot>> DeleteTechshot(int id)
         {

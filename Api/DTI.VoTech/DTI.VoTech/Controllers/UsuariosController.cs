@@ -20,15 +20,12 @@ namespace DTI.VoTech.Controllers
         {
             _context = context;
         }
-
-        // GET: api/Usuarios
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
             return await _context.Usuarios.ToListAsync();
         }
-
-        // GET: api/Usuarios/5
+       
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
@@ -41,8 +38,7 @@ namespace DTI.VoTech.Controllers
 
             return usuario;
         }
-
-        // PUT: api/Usuarios/5
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
         {
@@ -71,8 +67,7 @@ namespace DTI.VoTech.Controllers
 
             return NoContent();
         }
-
-        // POST: api/Usuarios
+        
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
@@ -82,7 +77,7 @@ namespace DTI.VoTech.Controllers
             return CreatedAtAction("GetUsuario", new { id = usuario.UsuarioId }, usuario);
         }
 
-        // DELETE: api/Usuarios/5
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<Usuario>> DeleteUsuario(int id)
         {

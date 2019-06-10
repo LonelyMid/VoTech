@@ -21,14 +21,12 @@ namespace DTI.VoTech.Controllers
             _context = context;
         }
 
-        // GET: api/Temas
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Tema>>> GetTemas()
         {
             return await _context.Temas.ToListAsync();
         }
 
-        // GET: api/Temas/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Tema>> GetTema(int id)
         {
@@ -42,7 +40,6 @@ namespace DTI.VoTech.Controllers
             return tema;
         }
 
-        // PUT: api/Temas/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTema(int id, Tema tema)
         {
@@ -72,7 +69,7 @@ namespace DTI.VoTech.Controllers
             return NoContent();
         }
 
-        // POST: api/Temas
+
         [HttpPost]
         public async Task<ActionResult<Tema>> PostTema(Tema tema)
         {
@@ -82,7 +79,7 @@ namespace DTI.VoTech.Controllers
             return CreatedAtAction("GetTema", new { id = tema.TemaId }, tema);
         }
 
-        // DELETE: api/Temas/5
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<Tema>> DeleteTema(int id)
         {

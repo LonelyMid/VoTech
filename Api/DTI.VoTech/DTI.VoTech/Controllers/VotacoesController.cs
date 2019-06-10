@@ -12,23 +12,21 @@ namespace DTI.VoTech.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VotacaosController : ControllerBase
+    public class VotacoesController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public VotacaosController(ApplicationDbContext context)
+        public VotacoesController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Votacaos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Votacao>>> GetVotacoes()
         {
             return await _context.Votacoes.ToListAsync();
         }
 
-        // GET: api/Votacaos/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Votacao>> GetVotacao(int id)
         {
@@ -42,7 +40,6 @@ namespace DTI.VoTech.Controllers
             return votacao;
         }
 
-        // PUT: api/Votacaos/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutVotacao(int id, Votacao votacao)
         {
@@ -72,7 +69,7 @@ namespace DTI.VoTech.Controllers
             return NoContent();
         }
 
-        // POST: api/Votacaos
+
         [HttpPost]
         public async Task<ActionResult<Votacao>> PostVotacao(Votacao votacao)
         {
@@ -82,7 +79,7 @@ namespace DTI.VoTech.Controllers
             return CreatedAtAction("GetVotacao", new { id = votacao.VotacaoId }, votacao);
         }
 
-        // DELETE: api/Votacaos/5
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<Votacao>> DeleteVotacao(int id)
         {

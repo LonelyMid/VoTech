@@ -9,6 +9,6 @@ namespace DTI.VoTech.Models
         public int TechshotId { get; set; }
         public DateTime DataInicio { get; set; }
 
-        public int? EmpresaFK { get; set; }
+        public int? EmpresaFk { get; set; }
     }
 }

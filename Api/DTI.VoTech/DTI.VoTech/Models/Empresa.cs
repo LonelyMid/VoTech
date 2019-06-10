@@ -11,8 +11,6 @@ namespace DTI.VoTech.Models
 
         public string Nome { get; set; }
 
-        public string CNPJ { get; set; }
-
-        public List<Techshot>? TechshotsRealizadas { get; set; }
+        public string Cnpj { get; set; }    
     }
 }

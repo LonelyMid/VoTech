@@ -12,3 +12,17 @@ C:\Users\Pedro\Desktop\Server\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.
 C:\Users\Pedro\Desktop\Server\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.pdb
 C:\Users\Pedro\Desktop\Server\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.dll
 C:\Users\Pedro\Desktop\Server\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.pdb
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.csprojAssemblyReference.cache
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.RazorAssemblyInfo.cache
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.RazorAssemblyInfo.cs
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.AssemblyInfoInputs.cache
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.AssemblyInfo.cs
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.dll
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.pdb
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.deps.json
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.runtimeconfig.json
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.runtimeconfig.dev.json
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.dll
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\bin\Debug\netcoreapp2.2\DTI.VoTech.pdb
+C:\Users\Pedro\Desktop\Puc\VoTech\Api\DTI.VoTech\DTI.VoTech\obj\Debug\netcoreapp2.2\DTI.VoTech.RazorTargetAssemblyInfo.cache

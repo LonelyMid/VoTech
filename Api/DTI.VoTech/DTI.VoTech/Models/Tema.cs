@@ -8,10 +8,8 @@ namespace DTI.VoTech.Models
 
         public string Descricao { get; set; }
 
-        public Usuario UsuarioCadastrante { get; set; }
-
         public int? Votos { get; set; }
 
-        public int? TechshotFK { get; set; }
+        public int? TechshotFk { get; set; }
     }
 }

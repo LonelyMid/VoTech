@@ -23,11 +23,11 @@ namespace DTI.VoTech.Data
             modelBuilder.Entity<Techshot>(e =>
             {
                 e.HasKey(c => c.TechshotId);
-                e.HasOne<>().WithMany().HasForeignKey();
             });
             modelBuilder.Entity<Tema>(e => { e.HasKey(c => c.TemaId); });
             modelBuilder.Entity<Usuario>(e => { e.HasKey(c => c.UsuarioId); });
             modelBuilder.Entity<Votacao>(e => { e.HasKey(c => c.VotacaoId); });
+            modelBuilder.Entity<Empresa>(e => { e.HasKey(c => c.EmpresaId); });
             base.OnModelCreating(modelBuilder);
         }
     }

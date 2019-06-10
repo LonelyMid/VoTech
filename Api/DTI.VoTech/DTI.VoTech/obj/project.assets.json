@@ -12988,11 +12988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\Server\\DTI.VoTech\\DTI.VoTech\\DTI.VoTech.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\Puc\\VoTech\\Api\\DTI.VoTech\\DTI.VoTech\\DTI.VoTech.csproj",
       "projectName": "DTI.VoTech",
-      "projectPath": "C:\\Users\\Pedro\\Desktop\\Server\\DTI.VoTech\\DTI.VoTech\\DTI.VoTech.csproj",
+      "projectPath": "C:\\Users\\Pedro\\Desktop\\Puc\\VoTech\\Api\\DTI.VoTech\\DTI.VoTech\\DTI.VoTech.csproj",
       "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pedro\\Desktop\\Server\\DTI.VoTech\\DTI.VoTech\\obj\\",
+      "outputPath": "C:\\Users\\Pedro\\Desktop\\Puc\\VoTech\\Api\\DTI.VoTech\\DTI.VoTech\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
